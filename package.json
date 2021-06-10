@@ -1,0 +1,20 @@
+{
+  "name": "postman_to_blackbox_exporter_config",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "autoprefixer": "^10.2.6",
+    "axios": "^0.21.1",
+    "js-yaml": "^4.1.0",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4",
+    "vite": "^1.0.0-rc.1"
+  }
+}

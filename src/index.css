@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-5xl font-extrabold m-5 bg-clip-text text-transparent bg-gradient-to-r from-postman via-prometheus to-prometheus;
+  }
+}
+body {
+  @apply dark:bg-gray-800 flex items-center justify-center h-screen;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+
+  @apply flex container w-full shadow-md flex items-center bg-green-50;
+}
+
+.convertor {
+  @apply flex-shrink-0 container w-screen;
+}
+
+.convertor label {
+  @apply block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 text-left;
+}
+
+.convertor textarea {
+  @apply w-full border-gray-300 focus:outline-none focus:ring focus:border-blue-300;
+}
+
+.convertor button {
+  @apply py-2 px-4 bg-red-400 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 focus:outline-none;
+}
